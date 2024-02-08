@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1707377356970
+Build-Jdk: 1.8.0_292
+Built-By: ur
+Bundle-Activator: com.URPlus.dashboardDemo.impl.Activator
+Bundle-Category: URCap
+Bundle-ClassPath: .,DashboardClient-1.0.3.jar
+Bundle-ContactAddress: 123 URCap Street
+Bundle-Copyright: Copyright notice (C)
+Bundle-Description: This is a description of the URCap
+Bundle-LicenseType: License type
+Bundle-ManifestVersion: 2
+Bundle-Name: dashboardDemo
+Bundle-SymbolicName: com.URPlus.dashboardDemo
+Bundle-Vendor: URCaps R us Inc.
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: DashboardClient
+Embed-Transitive: true
+Embedded-Artifacts: DashboardClient-1.0.3.jar;g="com.URPlus";a="Dashboar
+ dClient";v="1.0.3"
+Import-Package: com.ur.urcap.api.contribution;version="[1.9,2)",com.ur.u
+ rcap.api.contribution.installation;version="[1.8,2)",com.ur.urcap.api.c
+ ontribution.installation.swing;version="[1.8,2)",com.ur.urcap.api.domai
+ n;version="[1.10,2)",com.ur.urcap.api.domain.data;version="[1.10,2)",co
+ m.ur.urcap.api.domain.script;version="[1.8,2)",javax.swing,javax.swing.
+ border,org.osgi.framework;version="[1.6,2)"
+Tool: Bnd-2.1.0.20130426-122213
+URCapCompatibility-CB3: true
+URCapCompatibility-eSeries: true
